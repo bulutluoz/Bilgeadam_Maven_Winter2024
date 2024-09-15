@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>bilgeadam_Maven</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <!--
+        pom.xml dosyasi maven projelerinin yonetim merkezidir
+        projeye eklemek istedigimiz herseyi pom.xml ile yukleyebiliriz
+
+        sonradan bir projeye dahil oldugumuzda
+        projenin hangi tool'lari kullandigini,
+        hangi versiyonlarla calistigini
+        pom.xml'den ogrenebiliriz
+
+        ihtiyacimiz olan tum kutuphaneleri
+        olusturdugumuz <dependencies> ...... </dependencies>
+        taglarinin arasina ekleyecegiz
+
+        baslangic olarak iki temel gereksinimi yuklemeliyiz
+        1- Selenium-java
+        2- WebDriver
+
+        pom.xml'e bir kutuphane yuklemesini soylemenin yontemi
+        yuklenecek kutuphaneyi
+        mvnrepository.com adresinden bulup,
+        ilgili versiyona ait ant'i pom.xml'e eklemektir
+
+        Selenium 4.12 ile kendi WebDriver'ini olusturdu
+        yani selenium ile otomasyon yapmak icin baska WebDriver yuklemek ZORUNDA degiliz
+    -->
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.24.0</version>
+        </dependency>
+
+
+
+
+
+    </dependencies>
+
+
+
+</project>
