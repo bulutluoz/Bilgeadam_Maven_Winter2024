@@ -7,6 +7,7 @@ public class C03_IlkTest {
     public static void main(String[] args) throws InterruptedException {
 
         WebDriver driver = new FirefoxDriver();
+        driver.manage().window().maximize();
 
         //1. testotomasyonu sayfasina gidin. https://www.testotomasyonu.com/
         driver.get("https://www.testotomasyonu.com/");
