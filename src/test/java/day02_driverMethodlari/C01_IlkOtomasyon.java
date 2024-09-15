@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class C01_IlkOtomasyon {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         // Otomasyon yapacagimiz bir class olusturdugumuzda
         // ilk yapilmasi gereken sey
@@ -22,6 +22,13 @@ public class C01_IlkOtomasyon {
 
 
 
+
+
+
+
+
+
+        Thread.sleep(3000);
         // driver.close(); // test sirasinda kullandigimiz window'u kapatir
                            // test sirasinda birden fazla window acildi ise son kullandigini kapatir
         driver.quit();  // test sirasinda acilan tum window'lari kapatir
