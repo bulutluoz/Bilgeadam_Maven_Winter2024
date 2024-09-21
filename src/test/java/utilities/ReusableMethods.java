@@ -18,4 +18,21 @@ public class ReusableMethods {
 
         return stringList;
     }
+
+    public static void bekle(int saniye){
+
+        try {
+            Thread.sleep(saniye*1000);
+
+        } catch (InterruptedException e) {
+
+            System.out.println("bekleme yapilamadi");
+        }
+
+    }
+
+
+
+
+
 }
