@@ -1,2 +1,3 @@
-2024/09/21-11:03:25.468 8403 Creating DB /Users/ahmetbulutluoz/Desktop/My Desktop/course/projeler/bilgeadam_Maven/C:/path/to/your/custom/profile/Default/Sync Data/LevelDB since it was missing.
-2024/09/21-11:03:25.518 8403 Reusing MANIFEST /Users/ahmetbulutluoz/Desktop/My Desktop/course/projeler/bilgeadam_Maven/C:/path/to/your/custom/profile/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/09/21-16:43:45.373 b503 Reusing MANIFEST /Users/ahmetbulutluoz/Desktop/My Desktop/course/projeler/bilgeadam_Maven/C:/path/to/your/custom/profile/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/09/21-16:43:45.374 b503 Recovering log #3
+2024/09/21-16:43:45.374 b503 Reusing old log /Users/ahmetbulutluoz/Desktop/My Desktop/course/projeler/bilgeadam_Maven/C:/path/to/your/custom/profile/Default/Sync Data/LevelDB/000003.log 

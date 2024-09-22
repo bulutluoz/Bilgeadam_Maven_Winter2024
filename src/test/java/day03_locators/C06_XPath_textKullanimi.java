@@ -21,12 +21,12 @@ public class C06_XPath_textKullanimi {
         ReusableMethods.bekle(1);
 
         //2- Add Element butonuna basin
-        driver.findElement(By.xpath("//*[ text() = 'Add']"))
+        driver.findElement(By.xpath("//*[ . = 'Add']"))
                 .click();
 
         //3- Remove butonu’nun gorunur oldugunu test edin
 
-        WebElement removeButonu = driver.findElement(By.xpath("//*[text()='Remove']"));
+        WebElement removeButonu = driver.findElement(By.xpath("//*[.='Remove']"));
 
         if (removeButonu.isDisplayed()){
             System.out.println("Remove buton testi PASSED");
